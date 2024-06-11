@@ -1,0 +1,11 @@
+
+.card:hover{
+    animation: moveY 1s;
+    transform: scale(1.05);
+    transition:1s;
+}
+@keyframes moveY{
+    0%{margin-top:-10px;};
+    100%{margin-top:-10px};
+
+}

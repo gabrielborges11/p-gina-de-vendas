@@ -1,0 +1,130 @@
+@media(max-width:560px){
+
+    .intro{
+        transform:scale(0.8);
+        display:flex;
+        flex-direction:column;
+        gap:10%;
+        align-items:center;
+        justify-content:center;
+        margin-top:-12%;
+        margin-top:5%;
+       width:70%;
+    }
+     
+
+    
+
+
+    header{
+        box-shadow: none;
+    }
+
+    .info img{
+        display:none;
+    }
+
+    .duvidas{
+        margin-top:10%;
+    }
+
+    .duvidas summary{
+        height:50px;
+    }
+
+    .card article{
+        margin-top:10%;
+    }
+
+   .card{
+    height:200px;
+    width:80%;
+   }
+
+    .info{
+        height:300px;
+         font-size:15px;
+    }
+
+    .cards{
+        display:flex;
+        flex-direction:column;
+    }
+
+    main h3{
+        font-size:small;
+        margin-left: 10px;
+        margin-right:10px;
+    }
+
+    .intro h2{
+        font-size:30px;
+    }
+
+    .intro h3{
+        font-size:17px;
+    }
+
+    .cta{
+        margin-top:5%;
+    }
+}
+
+@media(max-width:280px){
+
+    .duvidas summary{
+        height:80px;
+    }
+}
+
+@media(max-width:800px){
+
+    .info img{
+        display:none;
+    }
+
+    .card{
+        height:200px;
+        width:70%;
+    }
+
+    .intro{
+        margin-left:50px;
+        margin-right:50px;
+        display:flex;
+        
+    }
+
+    .intro img{
+        transform: scale(0.7);
+    }
+
+       .cards{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .card article{
+        margin-top:5%;
+    }
+
+    .card h3{
+        margin-top:5%;
+    }
+
+    main h3{
+        margin-left: 15px;
+        margin-right:15px;
+    }
+
+}
+
+@media(max-width:900px){
+    .intro{
+        transform: scale(0.8);
+        margin-left:50px;
+        margin-right:50px;
+        display:flex;
+        
+    }
+}
