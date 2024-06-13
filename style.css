@@ -68,7 +68,7 @@ button{
 
 button:hover{
     background-color: transparent;
-    border:5px white;
+    border:3px white solid;
     color:white;
 
 }
